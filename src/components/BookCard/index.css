@@ -1,0 +1,87 @@
+.shelf-link-container {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.book-img {
+  width: 133px;
+  height: 155px;
+  margin-right: 16px;
+  border-radius: 8px;
+}
+
+.book-title {
+  color: #334155;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  margin-bottom: 0px;
+}
+
+.book-author {
+  color: #475569;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+  margin-top: 8px;
+  margin-bottom: 0px;
+}
+
+.rating-section-container {
+  display: flex;
+  align-items: center;
+  height: 16px;
+  margin-top: 8px;
+}
+
+.rating-label {
+  color: #475569;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+  margin-right: 4px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.book-rating {
+  color: #334155;
+  font-family: 'HK Grotesk';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 142.857% */
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.status-label {
+  margin-top: 8px;
+  color: #475569;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+}
+.status-text {
+  color: #0284c7;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+}
+
+.shelf-book-text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
